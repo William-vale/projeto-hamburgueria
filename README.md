@@ -1,6 +1,6 @@
 # Projeto Hamburgueria
 
-##  Projeto Hamburgueria: Gerenciamento Completo de Delivery e Restaurante
+###  Projeto Hamburgueria: Gerenciamento Completo de Delivery e Restaurante
 
 **Seu negócio de delivery e restaurante de hambúrgueres a um clique de distância!**
 
