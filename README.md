@@ -17,11 +17,7 @@ O **Projeto Hamburgueria** é um sistema completo e intuitivo para otimizar as o
     -   Cardápio online intuitivo com fotos, descrições e preços.
     -   Receba pedidos online em tempo real.
     -   Gerencie pedidos de forma organizada (em preparação, a caminho, entregue).
-    -   Imprima tickets de cozinha automaticamente.
--   **Gerenciamento de Estoque:**
-    -   Controle preciso dos níveis de estoque de ingredientes e produtos.
-    -   Notificações automáticas quando os níveis de estoque estiverem baixos.
-    -   Relatórios de consumo para otimizar compras e reduzir custos.
+    -   Receba os Pedidos no seu Whatsapp.
 -   **Financeiro:**
     -   Visualize suas vendas em tempo real com gráficos e relatórios detalhados.
     -   Acompanhe o fluxo de caixa e tenha uma visão clara da saúde financeira do seu negócio.
@@ -30,8 +26,6 @@ O **Projeto Hamburgueria** é um sistema completo e intuitivo para otimizar as o
     -   Cadastro e gerenciamento de clientes com histórico de pedidos e preferências.
     -   Crie promoções e cupons de desconto para atrair e fidelizar clientes.
     -   Configure diferentes áreas de entrega com diferentes taxas e tempos.
-    -   Notificações por SMS ou e-mail sobre o status dos pedidos.
-    -   Personalização com a identidade visual da sua marca.
 
 **Tecnologias Utilizadas:**
 
