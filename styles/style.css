@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
+
+body {
+    background-color: #F6F7F8;
+    width: auto;
+    height: auto;
+}
+
+header {
+    background-image: url(../assets/bg.png);
+}
+

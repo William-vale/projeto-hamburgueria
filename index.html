@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/output.css">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        
+        <title>Hamburgueria Padrão</title>
+    </head>
+    
+    <body>
+        <!-- HEADER -->
+        <header class="w-full h-[420px] bg-zinc-900 bg-cover bg-center">
+            <div class="w-full h-[420px] flex flex-col justify-center items-center">
+                <img class="w-32 h-32 rounded-full drop-shadow-sm hover:scale-110 duration-200" src="assets/hamb-1.png" alt="Logo Hamburgueria">
+                <h1 class="text-3x1 mt-4 ml-3.5 font-bold text-white text-center">Dev Burguer</h1>
+                <span class="text-white text-[11px]">Rua dev media, 10, Tianguá-Ce</span>
+            
+                <div class="bg-green-600 px-3 py-1 rounded-lg mt-2" id="date-span">
+                    <span class="text-center justify-center text-[14px]  hover:text-white duration-50">Seg à Sab - 18h as 22h</span>
+                </div>
+            </div>
+        </header>
+        <!-- FIM DO HEADER -->
+
+        <h2 class="text-2xl md:text-4xl text-center font-bold mt-9 mb-6">
+            Conheça nosso Menu
+        </h2>
+
+        <!-- INICIO DO MENU -->
+        <div id="menu">
+
+            <main class="grid grid-cols-1 gap-7 mx-8 max-w-7xl mb-10 md:mx-auto lg:grid-cols-3 md:grid-cols-2 md:gap-10">
+
+                <!-- Produto 1 -->
+                <div class="flex gap-2 mb-2">
+                    <img src="assets/hamb-1.png" alt="Hamburguer Smash" class="w-28 h-28 rounded-md hover:scale-10 hover:-rotate-2 duration:300">
+                    
+                    <div>
+                        <p class="font-bold">Hamburguer Smash</p>
+                        <p class="text-xs"> É um tipo de hambúrguer um pouco menor e prensado diretamente na chapa que ganha um sabor especial justamente pela técnica utilizada.</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-4">
+                            <p class="font-bold text-lg">R$ 18,90</p>
+                            <button class="btn-cart bg-zinc-600 px-3 py-1 rounded" data-name="Hamburguer Smash" data-price="18.90">
+                                <img class="w-6 h-6 text-white" src="https://cdn-icons-png.flaticon.com/512/6713/6713723.png" alt="carrinho de compra">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Produto 1-->
+                
+                <!-- Produto 2-->
+                <div class="flex gap-2 mb-2">
+                    <img src="assets/hamb-2.png" alt="Hamburguer Duplo" class="w-28 h-28 rounded-md hover:scale-10 hover:-rotate-2 duration:300">
+                    
+                    <div>
+                        <p class="font-bold">Hamburguer Duplo</p>
+                        <p class="text-xs">Dois hambúrgueres (carne 100% bovina), queijo processado sabor cheddar, cebola, fatias de bacon, ketchup, mostarda e pão com gergelim.</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-4">
+                            <p class="font-bold text-lg">R$ 30,00</p>
+                            <button class="btn-cart bg-zinc-600 px-3 py-1 rounded" data-name="Hamburguer Duplo" data-price="30.00">
+                                <img class="w-6 h-6 text-white" src="https://cdn-icons-png.flaticon.com/512/6713/6713723.png" alt="carrinho de compra">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Produto 2 -->
+
+                <!-- Produto 3 -->
+                <div class="flex gap-2 mb-2">
+                    <img src="assets/hamb-3.png" alt="Chesse Burguer" class="w-28 h-28 rounded-md hover:scale-10 hover:-rotate-2 duration:300">
+                    
+                    <div>
+                        <p class="font-bold">Chesse Burguer</p>
+                        <p class="text-xs">Um hamburguer (100% carne bovina), queijo procesado sabor cheddar, cebola, picles, ketchup, mostarda e pão sem gergelim.</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-4">
+                            <p class="font-bold text-lg">R$ 17,90</p>
+                            <button class="btn-cart bg-zinc-600 px-3 py-1 rounded" data-name="Chesse Burguer" data-price="17.90">
+                                <img class="w-6 h-6 text-white" src="https://cdn-icons-png.flaticon.com/512/6713/6713723.png" alt="carrinho de compra">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Produto 3 -->
+
+                <!-- Produto 4 -->
+                <div class="flex gap-2 mb-2">
+                    <img src="assets/hamb-4.png" alt="Chesse Bacon" class="w-28 h-28 rounded-md hover:scale-10 hover:-rotate-2 duration:300">
+                    
+                    <div>
+                        <p class="font-bold">Chesse Bacon</p>
+                        <p class="text-xs"> Pão Exclusivo, Blend de 150g , queijo prato, muito bacon grelhado, salada de alface e tomate escolha 2 molhos.</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-4">
+                            <p class="font-bold text-lg">R$ 17,90</p>
+                            <button class="btn-cart bg-zinc-600 px-3 py-1 rounded" data-name="Chesse Burguer" data-price="17.90">
+                                <img class="w-6 h-6 text-white" src="https://cdn-icons-png.flaticon.com/512/6713/6713723.png" alt="carrinho de compra">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Produto 4 -->
+
+            </main>
+        
+            <div class="mx-auto max-w-7xl px-2 my-2">
+                <h2 class="font-bold text-3xl mt-6">
+                    Bebidas
+                </h2>
+            </div>
+
+            <!-- Grid Bebidas -->
+            <div class="grid grid-cols-1 gap-7 mx-8 max-w-7xl mb-10 md:mx-auto lg:grid-cols-3 md:grid-cols-2 md:gap-10">
+             
+                <!-- Bebida 1 -->
+                <div class="flex gap-2 my-2">
+                    <img src="assets/refri-1.png" alt="Coca-Cola" class="w-28 h-28 rounded-md hover:scale-10 hover:-rotate-2 duration:300">
+                    
+                    <div>
+                        <p class="font-bold">Coca-Cola</p>
+                        <p class="text-xs"> A Coca-Cola Lata 350ml é uma bebida icônica carbonatada conhecida em todo o mundo por seu sabor inconfundível e refrescante.</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-4">
+                            <p class="font-bold text-lg">R$ 5,00</p>
+                            <button class="btn-cart bg-zinc-600 px-3 py-1 rounded" data-name="Coca-Cola" data-price="5.00">
+                                <img class="w-6 h-6 text-white" src="https://cdn-icons-png.flaticon.com/512/6713/6713723.png" alt="carrinho de compra">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Bebida 1-->
+
+                <!-- Bebida 2 -->
+                <div class="flex gap-2 my-2">
+                    <img src="assets/refri-2.png" alt="Guaraná Antartica" class="w-28 h-28 rounded-md hover:scale-10 hover:-rotate-2 duration:300">
+                    
+                    <div>
+                        <p class="font-bold">Guaraná Antartica</p>
+                        <p class="text-xs"> 350ml de Guaraná Antarctica é cuidadosamente formulada para oferecer equilíbrio perfeito entre a doçura natural do guaraná e a carbonatação ideal.</p>
+                        
+                        <div class="flex items-center gap-2 justify-between mt-4">
+                            <p class="font-bold text-lg">R$ 5,00</p>
+                            <button class="btn-cart bg-zinc-600 px-3 py-1 rounded" data-name="Guaraná Antartica" data-price="5.00">
+                                <img class="w-6 h-6 text-white" src="https://cdn-icons-png.flaticon.com/512/6713/6713723.png" alt="carrinho de compra">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim Bebida 2 -->
+            
+            </div>
+            <!-- Fim Grid Bebidas -->
+
+        </div>
+        <!-- FIM DO MENU -->
+    
+         <!-- MODAL CARD -->
+         <div id="cart-modal" class="bg-black/50 w-full h-full fixed top-0 left-0 z-[99] justify-center items-center hidden <!-- flex -->">
+            <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+                <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+
+                <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
+                <p class="font-bold">Total: <span id="card-total">0.00</span></p>
+                <p class="font-bold mt-4">Endereço de Entrega: </p>
+                <input 
+                    type="text"
+                    placeholder="Digite seu Endereço de Entrega..."
+                    id="address" 
+                    class="w-full border-2 p-1 rounded my-2"
+                />
+                <p class="text-red-500 hidden" id="address-warn" >Digite seu Endereço Completo!</p>
+            
+                <div class="flex items-center justify-between mt-5 w-full">
+                    <button id="close-btn-modal" class="hover:bg-slate-400 py-1 px-2 rounded hover:text-white hover:font-bold">Fechar</button>
+                    <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
+                </div>
+            </div>
+         </div>
+         <!-- FIM DO MODAL CARD -->
+
+        <!-- Button Cart Footer -->
+            <footer class="w-full bg-red-500 py-2 fixed bottom-0 z-40 flex items-center justify-center">
+                <button id="card-carrinho" class="flex gap-2 items-center justify-center font-bold text-white">
+                    (<span id="cart-count">0</span>)
+                    Veja meu carrinho
+                    <img class="w-6 h-6 text-lg mx-2" src="https://cdn-icons-png.flaticon.com/512/6713/6713723.png" alt="carrinho de compra">
+                </button>
+            </footer>
+        <!-- Fim Button Cart Footer -->
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
