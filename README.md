@@ -53,3 +53,7 @@ Para iniciar com o Projeto Hamburgueria, siga os passos do guia de instalação 
 Caso tenha dúvidas ou precise de ajuda, você pode entrar em contato com a comunidade do projeto através do canal de comunicação disponível no repositório do GitHub.
 
 **Junte-se a nós e ajude a construir o melhor sistema de gerenciamento de delivery e restaurante para pequenos e médios negócios!**
+
+**Projeto no Figma**
+[https://www.figma.com/community/file/1347975029276307234/restaurant-sujeito-programador](https://www.figma.com/community/file/1347975029276307234/restaurant-sujeito-programador)
+
