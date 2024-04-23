@@ -1,4 +1,4 @@
-# projeto-hamburgueria
+# Projeto Hamburgueria
 
 ##  Projeto Hamburgueria: Gerenciamento Completo de Delivery e Restaurante
 
